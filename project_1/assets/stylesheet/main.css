@@ -44,56 +44,68 @@ table {
 
 .container {
     margin:10px;
-    border: 1px solid black; /* going out of border on applying border on whole page*/
+    /* going out of border on applying border on whole page*/
 }
 h1 {
     font-weight: bold;
     margin-top: 50px;
-    margin-left: 10px;
-    border: 1px solid black;
+    margin-left: 20px;
+    margin-bottom: 40px;
+  
 }
-p { 
-    font-size: 10px;
-    margin: 10px;
-    background-color: red;
-    height:100px;
+
+.first_col {
+    border: 4px solid black;
+    background-color:#B22E25;
     width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    margin-bottom: 40px;
 }
-.line
-{
+
+.line {
+    margin-top: 50px;
+}
+.col {
     display: inline-block;
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    background-color:#B22E25;
+    margin-left: 20px;
+    margin-right: 40px;
+
 }
-.line1{
-    display: block;
-}
-.visible {
-    font-size: 15px;
-    color: wheat;
-    margin-top: 20px;
-    margin-left: 15px;
+
+.para {
+    font-size: 10px;
+    color: white;
+    margin-left: 20px;
+    margin-top: 40px;
     width: 20%;
     height: auto;
-    border-top: 15px solid blue ;
-    border-right: 15px solid grey;
-    border-bottom: 15px solid yellow;
-    border-left: 15px solid green;
-
-    outline: 15px solid purple;
+    border-top: 15px solid #244AFB ;
+    border-right: 15px solid #7E8080;
+    border-bottom: 15px solid #FDF731;
+    border-left: 15px solid #566D37;
+    outline: 20px solid #812E80;
     padding: 10px;
+    background-color: #E93F33;
 }
-.first {
-    border: 2px solid black;
-    background-color: red;
-    width: 100px;
-    height: 100px;
+   
+.double {
+    border: 4px double black;
 }
 
-.second {
-    border: 2px solid black;
-    width: 100px;
-    height: 100px;
-
+.dashed
+{
+    border: 4px dashed black;
 }
-.line {
-display: inline-block;
+
+dotted {
+    border: 4px dotted black;
+}
+
+.none {
+    border: none;
 }
