@@ -43,24 +43,9 @@ table {
 }
 
 .container {
-    width:80%;
+    width:50%;
     margin: 10px auto;
     
-    
-}
-h2 {
-    display: inline-block;
-   
-    height: 180px;
-    width: 315px;
-    
-}
-h3 {
-    
-    display: inline-block;
-
-    height: 180px;
-    width: 180px;
 }
 
 section {
@@ -68,51 +53,55 @@ section {
     color: white;
 }
 
-.col1 h2 {
+div{
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.col1 .big, .col2 .big, .col3 .big {
+    width: 240px;
+    height: 235px;
+}
+
+.col1 .small, .col2 .small, .col3 .small {
+    width: 180px;
+    height: 235px;
+}
+
+.col1 .el1 {
     background-color: #FE5349;
-    padding-top: 10px;
-    padding-left: 10px;
 }
-.col1 .el1{
-    background-color: #0C8871;    
-    padding-top: 10px;
-    padding-left: 10px;
-
+.col1 .el2{
+    background-color: #0C8871; 
 }
-.col1 .el2
-{
+.col1 .el3
+    {
     background-color: #B601FF;
-    padding-top: 10px;
-    padding-left: 10px;
 }
-
+    
 .col2 .el1 {
     background-color: #0DC1FD;
-    padding-top: 10px;
-    padding-left: 10px;
 }
-.col2 h2 {
-    background-color: #0DC1FD;
-    padding-top: 10px;
-    padding-left: 10px;
-}
+    
 .col2 .el2 {
-    background-color: #01F361;
-    padding-top: 10px;
-    padding-left: 10px;
+    background-color: #0DC1FD;
 }
+
+.col2 .el3 {
+    background-color: #01F361;
+}
+    
 .col3 .el1 {
     background-color: #E8FF1D;
-    padding-top: 10px;
-    padding-left: 10px;
 }
+    
 .col3 .el2 {
     background-color: #FE7405;
-    padding-top: 10px;
-    padding-left: 10px;
 }
-.col3 h2 {
+    
+.col3 .el3 {
     background-color: #E52F2D;
-    padding-top: 10px;
-    padding-left: 10px;
 }
+    
+

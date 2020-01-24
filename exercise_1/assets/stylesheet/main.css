@@ -69,13 +69,15 @@ h1 {
 }
 
 p {
-    
+    line-height: 1.5;
+    font-size: 17px;
     width: 400px;
     height: 600px;
     border: 2px dotted black;
     font-family: 'Ubuntu', sans-serif;
     padding-top: 10px;
     margin: 0 auto;
+    background-color: #D1D631;
 
 }
 img {
@@ -86,12 +88,13 @@ img {
     margin: 40px 0;
 }
 
-div{
-    margin-left: 325px;
+.circle{
+    margin-left: 45%;
     height: 200px;
     width: 200px;
-    border: 2px solid black;
+    border: 2px solid #D18C1D;
     border-radius: 50%;
+    background-color: #D18C1D;
 }
 
 footer {
