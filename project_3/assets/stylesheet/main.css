@@ -47,60 +47,203 @@ table {
    width: 100%;
    background-color:#252525 ; 
    margin:10 px;
+   box-sizing: border-box;
 }
-
+/*--------header-----------*/
 header{
     width: auto;
     height: 150px;
-    border: 2px solid white;
-}
-h1{
-    display:inline-block;
-    color: #5C282B ;
-    margin:10px ;
-    
-    font-size: 20px;
-   
-    
 }
 
+  h1 {
+    display:inline-block;
+    margin:30px 30px;
+  } 
+
+h1 a{
+    text-decoration: none;
+    color: #A02F31 ;
+    font-size: 35px;
+    font-family: 'Muli', sans-serif;
+    font-weight: 600;
+}
 nav{
-    margin-left: 53%;
+    margin-left: 65%;
     display: inline;
-   
-    word-spacing: 30px;
+    word-spacing: 50px;
 }
 
 nav a{
-   
+    
+    font-family: 'Muli', sans-serif;
+    font-size: 18px;
     text-decoration: none;
     color: white;
     text-transform: uppercase;
 }
 
+/*---------------section1------------*/
 .section1 {
-    border: 1px solid white;
-    width: 50%;
+    width: 30%;
     height: auto;
-    padding-left: 10px;
+    background-color:#252525 ; 
     line-height: 30px;
     color: white;
-    padding-bottom: 50px;
+    margin: 80px 30px;
+    padding: 30px auto;
 }
 .section1 h2 {
-    border: 1px solid white;
-    margin-bottom: 10px;
-    font-weight: bold;
+    font-family: 'Muli', sans-serif;
+    line-height: 1.5;
+    font-size: 26px;
+    margin-bottom: 20px;
+    font-weight: 600;
     
 }
 .section1 p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 17px;
     line-height: 1.2;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 .section1 a{
+    font-family: 'Muli', sans-serif;
     color: white;
     margin-top: 20px;
     color: white;
     text-decoration: none;
     border: 2px solid white;
+    padding: 8px;
+}
+
+/*-----------------section 2------*/
+.section2 {
+   
+    width: 100%;
+    height:auto;
+    margin-top: 0px;
+    background-color: white ;
+    
+    padding: 60px 0;
+    
+    
+}
+
+
+.section2 h2 {
+    font-family: 'Muli', sans-serif;
+    font-size: 21px;
+    color: #DD3C3C;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 30px 30px;
+   
+}
+
+.section2 p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 17px;
+    
+    color: #636363;
+    line-height: 1.5;
+    margin:30px 30px;
+}
+
+.section2 a {
+    font-family: 'Muli', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #dd3C3C;
+    border: 2px solid #DD3C3C;
+    margin: 30px 30px;
+    padding: 8px;
+
+}
+/*-----------section 3-------------*/
+.section3 {
+   
+    width: 100%;
+    height: auto;
+    background-color: #F1F0F0;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.section3 h2 {
+    font-family: 'Muli', sans-serif;
+    font-size: 21px;
+
+    text-transform: uppercase;
+    color: #dd3C3C;
+    margin: 30px auto;
+}
+
+.section3 .circle {   /*h and w in % */
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color:#dd3C3C ;
+    margin: 20px auto;
+}
+
+.section3 p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 17px;
+    padding: 10px;
+    margin: 10px auto;
+    color:#424242 ;
+    line-height: 1.5;
+   
+    
+}
+
+/*----------------footer--------------------*/
+footer {
+    font-family: 'Muli', sans-serif;
+    background-color:#dd3C3C;
+    padding: 50px 0;
+}
+
+footer h2 {
+    
+    font-size: 18px;
+    text-transform: uppercase;
+    color: white;
+    margin: 30px 30px;
+    font-weight: bold;
+}
+
+/*----------form------------*/
+.namelabel,.msglabel
+{   
+    font-size: 18px;
+    color:white;
+    text-transform: uppercase;
+    display: block;
+    margin: 5px 30px; 
+}
+.name, .textarea
+{
+    
+    margin: 10px 30px 10px 30px;
+    width: 90%;
+    background: #DD3C3C;
+}
+.name{
+    height: 22px;
+}
+.textarea {
+    height: 250px;
+}
+.submit {
+    color: #F1F0F0;
+    display: block;
+    margin: 10px 30px;
+    background: #DD3C3C;
+    text-transform: uppercase;
+    padding: 8px;
+}
+small {
+    margin: 30px 30px;
+    color: #F1F0F0;
 }
